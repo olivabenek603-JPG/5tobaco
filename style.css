@@ -1,0 +1,71 @@
+body{
+	font-family:sans-serif;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	background:#f0f2f5;
+	transition: background-color 1s;
+}
+.container{
+	display:flex;
+	gap:40px;
+	align-items:center;
+}
+.card{
+	width:250px;
+	background:skyblue;
+	border-radius:15px;
+	overflow:hidden;
+	box-shadow:0 10px 20px rgb(0, 0, 0, 0.1);
+	text-align:center;
+	padding-bottom:20px;
+	transition: background-color 0.3s; /*tiempo de transición al regresar*/
+.card2{
+	width:100px;
+	height: 100vh;
+	background:gray;
+	border-radius:15px;
+	overflow:hidden;
+	box-shadow:0 10px 20px rgb(0, 0, 0, 0.1);
+	text-align:center;
+	padding-bottom:20px;
+	transition: background-color 0.3s; /*tiempo de transición al regresar*/
+}
+.banner{
+	height:80px;
+	background:#6366f1;
+}
+.avatar{
+	width: 80px;
+	height:80px;
+	background:#ddd;
+	border: 4px solid white;
+	border-radius:50%;
+	margin:-40px auto 10px;
+}
+.controls{
+	display: flex;
+	flex-direction:column;
+	gap:20px;
+	transition: background-color 0.4s;
+}
+.input{
+	padding:10px;
+	border-radius:5px;
+	border: 1px solid #ccc;
+}
+
+.card.dark-mode{
+ 	background-color: #333 !important;
+ 	color: white !important;
+ 	transition: 0.3s;
+ 	align-content:;
+}
+
+body.dark-mode{
+	background-color: #334 !important;
+	color: white !important;
+	transition: 1s;
+}
+
